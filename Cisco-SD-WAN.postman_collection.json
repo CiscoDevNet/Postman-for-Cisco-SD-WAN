@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "f3596695-561c-4159-a998-5eca1f85e0cb",
+		"_postman_id": "eb9ea9da-998c-473c-a45d-eb921b13aabc",
 		"name": "Cisco-SD-WAN",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -57,7 +57,10 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"body": {},
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
 						"url": {
 							"raw": "https://{{vmanage}}:{{port}}/dataservice/device",
 							"protocol": "https",
@@ -78,7 +81,10 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"body": {},
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
 						"url": {
 							"raw": "https://{{vmanage}}:{{port}}/dataservice/device/monitor",
 							"protocol": "https",
@@ -100,7 +106,10 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"body": {},
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
 						"url": {
 							"raw": "https://{{vmanage}}:{{port}}/dataservice/device/counters",
 							"protocol": "https",
@@ -122,7 +131,10 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"body": {},
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
 						"url": {
 							"raw": "https://{{vmanage}}:{{port}}/dataservice/statistics/interface",
 							"protocol": "https",
@@ -134,6 +146,120 @@
 								"dataservice",
 								"statistics",
 								"interface"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "3. SD-WAN Device Template",
+			"item": [
+				{
+					"name": "Template Feature",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://{{vmanage}}:{{port}}/dataservice/template/feature",
+							"protocol": "https",
+							"host": [
+								"{{vmanage}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"dataservice",
+								"template",
+								"feature"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Template Feature Type",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://{{vmanage}}:{{port}}/dataservice/template/feature/types",
+							"protocol": "https",
+							"host": [
+								"{{vmanage}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"dataservice",
+								"template",
+								"feature",
+								"types"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "4. SD-WAN Device Policy",
+			"item": [
+				{
+					"name": "vEdge Template Policy",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://{{vmanage}}:{{port}}/dataservice/template/policy/vedge/devices",
+							"protocol": "https",
+							"host": [
+								"{{vmanage}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"dataservice",
+								"template",
+								"policy",
+								"vedge",
+								"devices"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Policy List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://{{vmanage}}:{{port}}/dataservice/template/policy/list",
+							"protocol": "https",
+							"host": [
+								"{{vmanage}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"dataservice",
+								"template",
+								"policy",
+								"list"
 							]
 						}
 					},
