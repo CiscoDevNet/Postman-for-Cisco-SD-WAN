@@ -12,7 +12,7 @@ The Postman collection and environment will need:
 
 If you don't have Postman already installed, you can download it from [here](https://getpostman.com). Once you install it, you can follow the steps below to import the collection and environment:
 
-![](https://github.com/ai-devnet/Postman-for-Cisco-SD-WAN/blob/master/postman.png)
+![Postman Image](./postman.png)
 
 1. Click on `Import`, browse to the location where you cloned this repo and add the two files:
     1. `Cisco-SD-WAN-Environment.postman_environment.json`
