@@ -20,4 +20,9 @@ If you don't have Postman already installed, you can download it from [here](htt
 2. Make sure you select the `Cisco-SD-WAN-Environment` environment
 3. Expand the collection and start making REST API calls.
 
-## Note: In case your instance of vManage has a self signed certificate, make sure you disable `SSL certificate verification` in Postman's settings.
+
+You can also export the API call into your preferred programming language, like Python or Go.
+
+![codesnip](./code_snip.png)
+
+### Note: In case your instance of vManage has a self signed certificate, make sure you disable `SSL certificate verification` in Postman's settings.
