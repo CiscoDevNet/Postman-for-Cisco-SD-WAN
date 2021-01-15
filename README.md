@@ -1,6 +1,11 @@
-# Postman for Cisco SD-WAN
+# Postman for Cisco SD-WAN 18.3
 
 This public repo contains a [POSTMAN](https://getpostman.com) environment and collection that can be used to interact with the `Cisco SD-WAN powered by Viptela vManage REST API`. The environment is pre-configured to access the [Cisco DevNet Always On Sandbox for SD-WAN](https://sandboxsdwan.cisco.com:8443) fabric. You can edit the variables in the environment to point to your own vManage instance. The collection contains REST API calls to authenticate, get a list of devices that are part of the SD-WAN fabric, and get device status, counters, and interface statistics for all the interfaces in the fabric. Feel free to modify them as you see fit and to add more calls to the collection.
+
+For SD-WAN Postman collection for vManage 19 + please see the following
+
+- [Postman-for-AlwaysOn-Cisco-SD-WAN](https://developer.cisco.com/codeexchange/github/repo/CiscoDevNet/Postman-for-AlwaysOn-Cisco-SD-WAN)
+- [Postman-for-Reservable-Cisco-SD-WAN](https://developer.cisco.com/codeexchange/github/repo/CiscoDevNet/Postman-for-Reservable-Cisco-SD-WAN)
 
 # Requirements
 
